@@ -1,0 +1,200 @@
+#
+# https://github.com/curl/curl/wiki/DNS-over-HTTPS
+#
+# Includes all marked as non-logging and not malware/ad blocking
+# Excludes logging, filtering, experimental
+# Excludes google, cloudflare, and quad9 - those are hardcoded
+# in the DNSOverHTTPS.java source file.
+#
+# Failures in testing are commented out below.
+#
+# Notes on some not included:
+#
+# Exclude big companies without any privacy policy:
+# - Alibaba
+# - AT&T
+# - Charter
+# - OpenDNS (Cisco)
+# - Xfinity (Comcast)
+#
+# Exclude these too:
+# - DNS.SB - 3 months logs
+# - doh.*.pi-dns.com - has blocking/filtering
+# - anything in China
+#
+# Grouped as in the link above.
+#
+https://blitz.ahadns.com/
+#
+https://dns.aa.net.uk/dns-query
+#
+# SSL issues
+#https://dnses.alekberg.net/dns-query
+#
+# SSL cert issues
+#https://dnsnl.alekberg.net/dns-query
+# SSL cert issues
+#https://dnsse.alekberg.net/dns-query
+# down, see https://www.armadillodns.net/ for status
+#https://doh.armadillodns.net/dns-query
+#
+https://doh.42l.fr/dns-query
+#
+https://doh-ch.blahdns.com/dns-query
+https://doh-sg.blahdns.com/dns-query
+https://doh-fi.blahdns.com/dns-query
+https://doh-jp.blahdns.com/dns-query
+https://doh-de.blahdns.com/dns-query
+#
+https://dns.blokada.org/dns-query
+#
+# not found
+#https://doh.captnemo.in/dns-query
+#
+https://private.canadianshield.cira.ca/dns-query
+#
+https://doh.opendns.com/dns-query
+#
+# not found
+#https://dns.containerpi.com/dns-query
+#
+https://freedns.controld.com/p0
+#
+https://dns.digitale-gesellschaft.ch/dns-query
+#
+https://dnsforge.de/dns-query
+#
+# SSL issues
+#https://doh.dnslify.com/dns-query
+#
+https://doh.li/dns-query
+#
+https://doh.asia.dnswarden.com/uncensored
+https://doh.eu.dnswarden.com/uncensored
+https://doh.us.dnswarden.com/uncensored
+#
+https://rdns.faelix.net/
+#
+https://doh.ffmuc.net/dns-query
+#
+# SSL issues
+#https://doh.applied-privacy.net/query
+#
+https://dns.hostux.net/dns-query
+#
+https://ordns.he.net/dns-query
+#
+# not found
+#https://jcdns.fun/dns-query
+#
+https://doh.tiar.app/dns-query
+https://doh.tiarap.org/dns-query
+#
+# down
+https://us1.dns.lavate.ch/dns-query
+https://eu1.dns.lavate.ch/dns-query
+#
+https://resolver-eu.lelux.fi/dns-query
+#
+https://doh.libredns.gr/dns-query
+#
+# not found
+#https://dns.moulticast.net/dns-query
+#
+# not found
+#https://doh.post-factum.tk/dns-query
+#
+https://basic.rethinkdns.com/dns-query
+#
+https://fi.doh.dns.snopyta.org/dns-query
+#
+https://dns.twnic.tw/dns-query
+#
+https://dns.wevpn.com/dns-query
+#
+# not found
+#https://dns.wugui.zone/dns-query
+#https://dns-asia.wugui.zone/dns-query
+#
+# cert expired
+#https://dns.dnsoverhttps.net/dns-query
+#
+https://ibksturm.synology.me/dns-query
+#
+# not found
+#https://ibuki.cgnat.net/dns-query
+#
+https://doh-2.seby.io/dns-query
+https://doh.seby.io:8443/dns-query
+#
+https://freedom.mydns.network/dns-query
+#
+#
+#############################################
+#
+#
+# Additional from:
+# https://dnscrypt.info/public-servers/
+# but not listed above.
+# Click on name, check for 'no filters true' and 'no logs true'
+#
+# Excludes logging, filtering, experimental
+# Failures in testing are commented out below.
+#
+# bortzmayer
+https://doh.bortzmeyer.fr/
+#
+# cz.nic
+# experimental
+#https://odvr.nic.cz/doh
+# fail
+#https://odvr.nic.cz/dns-query
+# dns.ryan-palmer
+# fail
+#https://dns1.ryan-palmer.com/dns-query
+#
+# dnscrypt.ca-1-doh
+# SSL issues
+#https://dns1.dnscrypt.ca/dns-query
+#https://dns2.dnscrypt.ca/dns-query
+https://doh.dnscrypt.uk/dns-query
+https://v.dnscrypt.uk/dns-query
+# dnshome-doh
+https://dns.dnshome.de/dns-query
+# doh-crypto-sx
+https://doh.crypto.sx/dns-query
+#
+https://doh.dns.sb/dns-query
+https://doh.sb/dns-query
+#
+# id-gmail-doh
+# SSL issues
+#https://doh.tiar.app/dns-query
+#
+# meganerd-doh
+# 404
+#https://chewbacca.meganerd.nl/dns-query
+# nextdns
+https://dns.nextdns.io/dns-query
+# powerdns
+# down
+#https://doh.powerdns.org/dns-query
+#
+# rumpelsepp.org
+# 404
+#https://rumpelsepp.org/dns-query
+#
+https://anycast.uncensoreddns.org/dns-query
+https://unicast.uncensoreddns.org/dns-query
+#
+#
+#############################################
+#
+#
+# Others:
+# njalla
+https://dns.njal.la/dns-query
+#
+# R4SAS i2pd
+https://opennic.i2pd.xyz/dns-query
+https://opennic2.i2pd.xyz/dns-query
